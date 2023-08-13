@@ -1,0 +1,133 @@
+@font-face {
+    font-family: "Vazir";
+    src: url("../fonts/Vazir.eot");
+    /* IE9 Compat Modes */
+    src: url("../fonts/Vazir.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Vazir.woff2") format("woff2"),
+    url("../fonts/Vazir.woff") format("woff"),
+    url("../fonts/Vazir.ttf") format("truetype");
+    /* Safari, Android, iOS */
+}
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Vazir" !important;
+    font-size: 14px;
+}
+/* ::-webkit-scrollbar {display: none;} */
+a {color: inherit;text-decoration: none;}
+a:hover {color: inherit;}
+ul {list-style-type: none; padding:0px}
+li {display: inline-block;}
+.text-justify {text-align: justify;}
+
+nav {
+    text-align: end;
+    padding: 15px 10px;
+}
+
+header {
+    background-image: url('../images/backpattern.png');
+}
+
+.header-inside {
+    color: white;
+    padding-top: 100px;
+}
+
+.header-inside h1 {
+    font-size: 16px;
+    text-align: center;
+}
+
+.header-buttons {
+    text-align: center;
+    padding: 50px 0px;
+}
+
+.header-buttons button {
+    color: white;
+    background-color: #2196f3;
+    border: none;
+    width: 140px;
+    margin: 0px 10px;
+    padding: 10px 0px;
+    border-radius: 5px;
+    font-size: 13px;
+}
+
+#news {
+    margin-top: 30px;
+    padding: 0px;
+    background-color: #EDF6FF;
+    border-radius: 6px;
+    color: #4a4a4a;
+}
+
+.news-label {
+    display: inline-block;
+    text-align: center;
+    background-color: #DEEEFF;
+    border-radius: 0px 6px 6px 0px;
+    width: 70px;
+    padding: 10px 0px;
+}
+
+.news-head {
+    display: inline-block;
+    padding: 10px 5px;
+}
+
+#news a:hover {
+    color: #0288d1;
+}
+
+#updated-blogs {
+    text-align: center;
+    margin: 30px auto;
+    max-width: 1200px;
+}
+
+.updated-title {
+    color: #0288d1;
+}
+
+.col-lg-4 {
+    padding: 0px !important;
+}
+
+.updated-list {
+    background-color: #f4f5f8;
+    border-radius: 7px;
+    height: 200px;
+    margin: 0px 25px 25px 25px;
+    padding: 20px 20px;
+}
+
+.updated-list a {
+    color: #333333;
+}
+
+.updated-list p {
+    margin-top: 10px;
+    color: #969696;
+    line-height: 24px;
+    overflow: hidden;
+    text-align: right;
+}
+
+footer ul li {
+    color: #0288d1;
+    /* margin-left: 10px; */
+}
+
+footer ul li::after {
+    content: '/';
+    color: #808080;
+    margin: 0px 5px;
+}
+
+footer ul li:last-child::after {
+    content: '';
+    margin: 0px 5px;
+}
